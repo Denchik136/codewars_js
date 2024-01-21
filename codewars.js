@@ -1,9 +1,10 @@
-function makeNegative(num) {
-    if (num > 0) {
-      return +("-" + num)
-    } else {
-      return num
-    }
+var summation = function (num) {
+  let summ = 0
+  for (let i = 0; i <= num; i++) {
+    summ += i;
   }
 
-  console.log(makeNegative(111))
+  return summ;
+}  
+
+console.log(summation(8))
